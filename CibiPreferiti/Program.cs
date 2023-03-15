@@ -1,10 +1,10 @@
-﻿string[] cibiPreferiti = { "pizza", "biscotti", "pancakes", "hamburger", "tortellini", "bacon", "ciambelle" };
+﻿string[] cibiPreferiti = { "Pizza", "Biscotti", "Pancakes", "Hamburger", "Tortellini", "Bacon", "Ciambelle" };
 
-for(int i = 0; i< cibiPreferiti.Length; i++)
-{
-    //cibiPreferiti[i];
-}
+//Console.WriteLine("Classifica:");
+
 for (int i = 0; i < cibiPreferiti.Length; i++)
 {
     Console.WriteLine(cibiPreferiti[i]);
 }
+
+Console.WriteLine("I miei cibi preferiti sono: " + cibiPreferiti.Length);
